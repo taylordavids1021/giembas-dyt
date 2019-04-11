@@ -1,0 +1,17 @@
+//  ******************** STYLE EXTENTION ******************** //
+
+#chocolate,
+#cheesecake,
+#cake{
+    transition: 1s ease-in;
+    position: absolute;
+    width: 24.3%;
+    height: 30rem;
+}
+
+#chocolate:hover,
+#cheesecake:hover,
+#cake:hover{
+    opacity: 0;
+    transition: 1s ease-in-out;
+}

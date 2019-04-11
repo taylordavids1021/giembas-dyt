@@ -1,0 +1,28 @@
+// *********** LAYOUTS ************** //
+
+.meals-grid {
+    display: grid;
+    width: 100%;
+    height: 50%;
+    grid-gap: 1rem;
+    // width: 91.543rem;    
+    margin: auto;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+        "title title title",
+        "images image images";
+}
+
+.header {
+    grid-area: title;
+    font-family: 'Lemonada', cursive;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.meals {
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    grid-area: images;
+}
