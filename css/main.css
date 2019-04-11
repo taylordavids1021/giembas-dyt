@@ -13,7 +13,7 @@ body {
 #cake {
   transition: 1s ease-in;
   position: absolute;
-  width: 24.3%;
+  width: 30.5%;
   height: 30rem; }
 
 #chocolate:hover,
@@ -29,7 +29,7 @@ body {
   grid-gap: 1rem;
   margin: auto;
   text-align: center;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "title title title", "images image images"; }
 
 .header {
